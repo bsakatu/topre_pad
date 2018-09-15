@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:topre_pad-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L bsakatu_kbd_lib:SW_Electro_Capacitive SW_EC1
+L kbd_parts:SW_Electro-Capacitive SW_EC1
 U 1 1 5B924C07
 P 4850 1600
 F 0 "SW_EC1" H 4850 1800 50  0000 C CNN
-F 1 "SW_Electro_Capacitive" H 4850 1400 50  0000 C CNN
-F 2 "bsakatu_kbd_lib:Topre_SW_temp" H 4850 1750 50  0001 C CNN
+F 1 "SW_Electro-Capacitive" H 4850 1400 50  0000 C CNN
+F 2 "bsakatu_lib:SW_EC_Topre-style_1" H 4850 1750 50  0001 C CNN
 F 3 "" H 4850 1750 50  0001 C CNN
 	1    4850 1600
 	1    0    0    -1  
