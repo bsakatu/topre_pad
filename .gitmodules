@@ -1,0 +1,6 @@
+[submodule "kicad_parts"]
+	path = kicad_parts
+	url = github:bsakatu/kicad_parts
+[submodule "kicad_library"]
+	path = kicad_library
+	url = github:bsakatu/kicad_library
